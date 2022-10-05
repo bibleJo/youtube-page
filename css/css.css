@@ -1,0 +1,160 @@
+* 
+    {margin: 0;
+        padding: 0;
+        list-style: none;
+        color: #444746;
+    }
+
+    /****** header *******/
+    header {
+        width: 100%;
+        padding: 16px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .header_left {float: left;}
+
+    .menu_icon {padding: 0 10px;}
+
+    .header_left > h2 {
+        font-size: 20px;
+        font-weight: 400;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .header_right {float: right;}
+
+    .header_right_icon {
+        float: left;
+        padding: 0 10px;
+        margin-top: 7px;
+    }
+    .Info {
+        display: inline-block;
+        border-radius: 32px;
+        margin-left: 10px;
+    }
+
+    /*  */
+    .appbar {
+        width: 100%;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    .app_list {
+        float: left;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .app_list > li {
+        float: left;
+        padding: 0 13px;
+        height: 35px;
+    }
+    .app_list > li:nth-child(1) {
+        border-bottom: 3px solid #0b57d0;
+        color: #0b57d0;
+    }
+    .app_link {float: right;
+        margin-right: 20px;
+    }
+
+    /*  */
+    .main {
+        width: 100%;
+        margin-bottom: 100px;
+        margin-top: 80px;
+        background: url(../images/bg.png) top center no-repeat;
+        background-size:1900px;
+        text-align: center;
+    }
+    .youtube_icon {
+        width: 56px;
+        height: 56px;
+        margin: auto;
+        border-radius: 56px;
+        box-shadow:1px 1px 1px 1px #ddd;
+        line-height: 56px;
+    }
+    .youtube_icon > img {
+        width: 40px;
+        vertical-align: middle;
+    }
+    .main > h2 {
+        font-size: 32px;
+        color: #0b57d0;
+        font-weight: 400;
+        margin-top: 15px;
+    }
+    .search_form {
+        width: 520px;
+        height: 48px;
+        border: 1px solid #eee;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow:1px 1px 2px #bbb;
+    }
+    .search_icon {
+        float: left;
+        margin-top: 14px;
+        margin-left: 40px;
+    }
+    .search_input {
+        float: left;
+        margin-left: 30px;
+        display: inline-block;
+        border: none;
+        width: 410px;
+        height: 48px;
+        line-height: 48px;
+        outline: none;
+        font-size: 16px;
+    }
+    .main_container {
+        width: 830px;
+        margin:auto;
+        margin-top: 150px;
+        text-align: left;
+    }
+    .main_container > h2 {font-size: 16px;}
+
+    .main_content {
+        width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 0.5rem;
+        margin-top: 20px;
+    }
+    .main_content > li {
+        line-height: 52px;
+        border-bottom: 1px solid #ddd;
+        font-weight: 600;
+        padding: 0 60px;
+        font-size: 14px;
+    }
+    .main_content > li:last-child {border-bottom: none;}
+
+    .arrow {float: right;
+        width: 12px;
+        margin-top: 22px;
+        cursor: pointer;
+    }
+    .main_overflow {
+        width: 830px;
+        margin-left: -60px;
+        background-color: #c4deff;
+        padding: 10px 0;
+        display: none;
+    }
+    .main_overflow > p {
+        font-weight: 400;
+        line-height: 36px;
+        padding-left: 60px;
+        box-sizing: border-box;
+    }
+    .main_overflow > p:hover {
+        background: #a0c6f7;
+        cursor: pointer;
+        transform: unset;
+        }
